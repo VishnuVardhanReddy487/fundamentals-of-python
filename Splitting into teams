@@ -1,0 +1,8 @@
+#Splitting into teams
+
+
+n=int(input())
+t=int(input())
+a=n//t
+b=n%t
+print('the number of students in each team is',a,'and left out is',b)
