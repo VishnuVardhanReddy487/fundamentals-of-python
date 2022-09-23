@@ -1,0 +1,15 @@
+#sece dining
+
+
+a=str(input())
+b=int(input())
+if(a=='front' and b==1):
+    print('Left handed')
+elif(a=='front' and b==2):
+    print('Right handed')
+elif(a=='rear' and b==1):
+    print('Right handed')
+elif(a=='rear' and b==2):
+    print('left handed')
+else:
+    print('invalid input')
