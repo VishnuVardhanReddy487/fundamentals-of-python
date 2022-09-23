@@ -1,0 +1,4 @@
+#Float Input
+
+v=float(input())
+print('%.2f'%v)
