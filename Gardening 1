@@ -1,0 +1,13 @@
+#Gardening 1
+
+r=int(input())
+c=int(input())
+t=int(input())
+if(t>=1 and t<=r):
+    print('yes')
+elif(t%r==0):
+    print('yes')
+elif(t%r==1):
+    print('yes')
+else:
+    print('no')
