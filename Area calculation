@@ -1,0 +1,10 @@
+#Area Calculation
+
+
+a=int(input())
+b=int(input())
+c=int(input())
+r=float(input())
+print(a*a)
+print(b*c)
+print("%.2f"%(3.14*r*r))
