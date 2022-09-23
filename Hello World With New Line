@@ -1,0 +1,3 @@
+#Hello World With New Line
+
+print("HELLO WORLD\nHELLO WORLD")
