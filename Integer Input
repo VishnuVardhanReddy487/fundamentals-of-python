@@ -1,0 +1,4 @@
+#Integer Input
+
+v=int(input('enter the num'))
+print(v)
