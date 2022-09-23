@@ -1,0 +1,13 @@
+#Vowel or consonants
+
+i=input()
+vowel=("aeiouAEIOU")
+a=ord(i)
+if(a>=65 and a<=90)or(a>=97 and a<=122):
+    if i in vowel:
+        print("vowel")
+    else:
+        print("consonant")
+else:
+    print("not an alphabet")
+    
