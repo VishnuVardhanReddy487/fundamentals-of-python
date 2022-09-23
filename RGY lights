@@ -1,0 +1,11 @@
+#RGY lights
+
+
+s=float(input()) 
+d=float(input()) 
+t=float(input())
+if(s>=t/d):
+    print('yes')
+else:
+    print('no')
+
