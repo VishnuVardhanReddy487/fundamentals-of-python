@@ -1,0 +1,9 @@
+#Ascii 1& 2
+
+
+v=input()
+print(ord(v))
+
+
+v=int(input())
+print(chr(v))
