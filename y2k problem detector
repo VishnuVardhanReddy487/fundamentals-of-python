@@ -1,0 +1,11 @@
+#Y2k problem detector
+
+
+b=int(input('Enter year of birth\n'))
+c=int(input('Enter current year\n'))
+if(b<c):
+    print('Your age is',(c-b))
+elif(b>c):
+    print('Your age is',100+c-b)
+else:
+    print('invalid output')
