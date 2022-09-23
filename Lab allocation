@@ -1,0 +1,12 @@
+#Lab allocation
+
+
+l1=int(input('Enter x\n'))
+l2=int(input('Enter y\n'))
+l3=int(input('Enter z\n'))
+if(l1<l2 and l1<l3):
+    print("l1 has the minimal seating capacity")
+elif(l2<l3 and l2<l1):
+    print("l2 has the minimal seating capacity")
+else:
+    print("l3 has the minimal seating capacity")
