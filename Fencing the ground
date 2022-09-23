@@ -1,0 +1,7 @@
+#Fencing the ground
+
+
+a=int(input())
+b=int(input())
+print("required length is",2*(a+b),'m')
+print("required quantity of carpet is",a*b,'sqm')
