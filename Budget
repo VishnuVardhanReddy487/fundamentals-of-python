@@ -1,0 +1,13 @@
+#Budget
+
+
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+s=(a*350.34+b*230.90+c*190.55+d*125.30+e*180.90)
+if(s<=15000):
+    print('yes')
+else:
+    print('no')
