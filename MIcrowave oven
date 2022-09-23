@@ -1,0 +1,13 @@
+#Microwave oven
+
+
+a=int(input('Enter the number of items\n'))
+b=float(input('Enter the single item heating time\n'))
+if(a==1):
+    print('b')
+elif(a==2):
+    print('The recommended heating time is '"%.2f"%(1.5*b))
+elif(a==3):
+    print(2*b)
+else:
+    print("number of items is more")
